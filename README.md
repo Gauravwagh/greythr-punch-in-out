@@ -10,28 +10,18 @@ Uses Selenium with headless Chrome to log into the greytHR portal and click the 
 - **Python 3.8+**
 - **Google Chrome** installed
 
-## What to Share
-
-If you want to share this with someone, share only these 4 files:
-
-| File | Purpose |
-|---|---|
-| `greythr_punch.py` | Main script |
-| `setup.sh` | Interactive setup |
-| `.env.example` | Credential template |
-| `README.md` | This documentation |
-
-**Do NOT share:** `.env` (contains your password), `greythr_punch.log`, `error_*.png`
-
 ## Setup Instructions
 
 ### Quick Setup (Recommended)
 
-1. Place all the shared files in a folder, e.g. `~/greythr/`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Gauravwagh/grayhr-punch-in-out.git
+   cd grayhr-punch-in-out
+   ```
 
 2. Run the setup script:
    ```bash
-   cd ~/greythr
    chmod +x setup.sh
    ./setup.sh
    ```
