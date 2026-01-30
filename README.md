@@ -16,7 +16,7 @@ Uses Selenium with headless Chrome to log into the greytHR portal and click the 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Gauravwagh/grayhr-punch-in-out.git
+   git clone https://github.com/Gauravwagh/greythr-punch-in-out.git
    cd grayhr-punch-in-out
    ```
 
