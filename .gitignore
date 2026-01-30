@@ -1,0 +1,6 @@
+.env
+*.log
+error_*.png
+debug_*
+__pycache__/
+.wdm/
